@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nguyễn Văn A</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- 1. HEADER / NAVBAR -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">DevPortfolio.</a>
+            
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#skills">Kỹ năng</a></li>
+                <li><a href="#experience">Kinh nghiệm</a></li>
+                <li><a href="#projects">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle theme">
+                    <i class="fa-solid me fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HERO / GIỚI THIỆU BẢN THÂN -->
+        <section class="hero" id="about">
+            <div class="container hero-container">
+                <div class="hero-avatar">
+                    <img src="avatar.jpg" alt="Ảnh đại diện">
+                </div>
+                <div class="hero-content">
+                    <h1>Xin chào, Tôi là <span>Đỗ Minh Khoa</span></h1>
+                    <h2>Lập trình viên Frontend (Web Developer)</h2>
+                    <p class="bio">
+                        Tôi là sinh viên ngành Công nghệ Thông tin đam mê phát triển các ứng dụng web tối ưu, giao diện đẹp mắt và trải nghiệm người dùng mượt mà.
+                        <h3>Trường Đại học Bình Dương
+                    </p>
+                    <div class="career-goal">
+                        <strong>Mục tiêu nghề nghiệp:</strong>
+                        <p>Ngắn hạn: Trở thành Lập trình viên Frontend Thực tập sinh. Dài hạn: Trở thành Fullstack Developer trong 3 năm tới.</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. KỸ NĂNG -->
+        <section class="skills section" id="skills">
+            <div class="container">
+                <h2 class="section-title">Kỹ năng chuyên môn</h2>
+                <div class="skills-grid">
+                    <div class="skill-card"><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+                    <div class="skill-card"><i class="fa-brands fa-css3-alt"></i><span>CSS3 / SCSS</span></div>
+                    <div class="skill-card"><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+                    <div class="skill-card"><i class="fa-brands fa-python"></i><span>Python</span></div>
+                    <div class="skill-card"><i class="fa-brands fa-java"></i><span>Java</span></div>
+                    <div class="skill-card"><i class="fa-brands fa-git-alt"></i><span>Git & GitHub</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. HỌC VẤN / KINH NGHIỆM / CHỨNG CHỈ -->
+        <section class="experience section" id="experience">
+            <div class="container">
+                <h2 class="section-title">Học vấn & Hoạt động</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h3>Đại học Công nghệ - Chuyên ngành CNTT</h3>
+                        <span class="date">2021 - Hiện tại</span>
+                        <p>GPA: 3.2/4.0. Thành viên tích cực trong CLB Lập trình Web.</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Chứng chỉ / Giải thưởng / Sở thích</h3>
+                        <span class="date">2023 - 2024</span>
+                        <p>• Chứng chỉ: Responsive Web Design (FreeCodeCamp)</p>
+                        <p>• Giải thưởng: Giải Ba cuộc thi Hackathon Sinh viên 2023</p>
+                        <p>• Sở thích: Đọc sách công nghệ, chơi bóng rổ, nghe nhạc.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. DỰ ÁN CÁ NHÂN -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section-title">Dự án cá nhân</h2>
+                <div class="projects-grid">
+                    <!-- Dự án 1 -->
+                    <article class="project-card">
+                        <img src="https://via.placeholder.com/400x250" alt="Dự án 1">
+                        <div class="project-info">
+                            <h3>Website Quản lý Công việc (Todo App)</h3>
+                            <p>Ứng dụng web giúp người dùng thêm, sửa, xóa và lưu danh sách công việc hàng ngày vào LocalStorage.</p>
+                            <div class="tags">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Demo</a>
+                                <a href="#" class="btn btn-outline btn-small">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Dự án 2 -->
+                    <article class="project-card">
+                        <img src="https://via.placeholder.com/400x250" alt="Dự án 2">
+                        <div class="project-info">
+                            <h3>Website Bán hàng Công nghệ (E-Commerce)</h3>
+                            <p>Trang web thương mại điện tử với tính năng giỏ hàng, lọc sản phẩm theo danh mục và responsive tốt.</p>
+                            <div class="tags">
+                                <span>HTML</span><span>Flexbox/Grid</span><span>JS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-small">Demo</a>
+                                <a href="#" class="btn btn-outline btn-small">Source Code</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. FORM LIÊN HỆ -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Form Liên hệ</h2>
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Họ và tên *</label>
+                        <input type="text" id="name" name="name" placeholder="Nhập họ tên...">
+                        <span class="error-msg" id="name-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="Nhập email...">
+                        <span class="error-msg" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Lời nhắn *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Nhập nội dung lời nhắn..."></textarea>
+                        <span class="error-msg" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="btn">Gửi tin nhắn</button>
+                    <p id="form-success" class="success-msg"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Nguyễn Văn A. All rights reserved.</p>
+    </footer>
+
+    <!-- Nút Scroll To Top -->
+    <button id="scroll-top" class="scroll-top" aria-label="Cuộn lên đầu trang">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
